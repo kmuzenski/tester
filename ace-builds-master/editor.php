@@ -36,14 +36,11 @@
     <div class="row">
 
        <div class="col-md-6">
-
-           <div id ="editor">
-          shit
+        <div id="editor">
+         shit
           </div>
       
       </div>
-      
-     
 
     
     <div class="col-md-6">
@@ -63,15 +60,18 @@
 <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
     var editor = ace.edit("editor");
+
+    var code = editor.getValue();
+
     
 
     editor.setTheme("ace/theme/chaos");
 
     editor.session.setMode("ace/mode/php");
 </script>
+<script src="lala.js"></script>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.8.24/jquery-ui.js" integrity="sha256-xWbKoNW9eZkm1RodPMQHsVyql6jqeiD6IYvsGyKEW78="crossorigin="anonymous"></script>
 
 <!-- BOOTSTRAP AND JS SCRIPTS -->
 
